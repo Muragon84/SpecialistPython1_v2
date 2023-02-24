@@ -16,10 +16,22 @@
 
 ### Решение задачи
 
-```python
-seconds = int(input("Прошло секунд: "))
-# TODO: you code here...
-```
+def convert_format(sec):
+    dey = sec // 86400
+    sec %= 86400
+    sec = sec % (24 * 3600)
+    hour = sec // 3600
+    sec %= 3600
+    min = sec // 60
+    sec %= 60
+    print("в днях:", dey)
+    print("в часах:",hour)
+    print("в минутах:",min)
+    print("в секундах:", sec)
+    return "%02d Дней %02dч : %02dм : %02dс" % (dey, hour, min, sec)
+
+second = int(input("Прошло секунд:"))
+print("Время в удобном формате :-", convert_format(second))
 
 ---
 
