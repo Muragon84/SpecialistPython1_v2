@@ -14,10 +14,12 @@
 
 ### Решение задачи
 
-```python
 string = input("Введите произвольный текст: ")
-# TODO: you code here...
-```
+text = len(string)
+
+print("Всего символов", text)
+print("Первый", string[0])
+print("Последний", string[-1])
 
 ---
 
