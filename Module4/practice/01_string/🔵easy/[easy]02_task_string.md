@@ -21,7 +21,9 @@ name = input("Имя: ")
 surname = input("Фамилия: ")
 # TODO: you code here...
 ```
-
+name = input("Имя: ")
+surname = input("Фамилия: ")
+print("Имя:", str.title(name), "Фамилия: ", str.title(surname) )
 ---
 
 <details>
