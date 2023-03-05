@@ -4,3 +4,13 @@
 names = ["Иван", "Ирина", "Вячеслав", "Василий", "Петр"]
 
 # TODO: your code here
+
+names = ["Иван", "Ирина", "Вячеслав", "Василий", "Петр"]
+
+big = names[0]
+
+for number in names:
+    if len(number) > len(big):
+        big = number
+
+print("самое длинное имя: ", big)
