@@ -4,3 +4,9 @@
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
 
 # TODO: your code here
+fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
+count = 0
+
+for letter in fruits:
+    print("Элемент списка ", count + 1, letter)
+    count += 1
