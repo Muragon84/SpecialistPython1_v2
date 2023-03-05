@@ -5,3 +5,13 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+
+numbers = [2, -5, 8, 9, -25, 25, 4]
+new_numbers = []
+for element in numbers:
+    if element > 0:
+         sqrt = element ** (0.5)
+         if element % sqrt == 0:
+            new_numbers.append(round(sqrt))
+
+print("Новый список с квадратными корнями элементов исходного списка: ", new_numbers)
