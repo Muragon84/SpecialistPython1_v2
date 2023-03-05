@@ -19,7 +19,15 @@ text = "В теории, теория и практика неразделимы
 vowels = "ауоыэяюёие"
 # TODO: you code here...
 ```
+text = "В теории, теория и практика неразделимы. На практике это не так."
+vowels = set("ауоыэяюёие")
+count = 0
 
+for letter in text:
+    if letter in vowels:
+        count += 1
+
+print("Гласных букв: ", count)
 ---
 
 ### Подсказки
