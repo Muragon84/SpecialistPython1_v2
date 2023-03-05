@@ -20,7 +20,10 @@
 text = "Мама мыла раму. Устала мама, но наконец отмыла раму-)"
 # TODO: you code here...
 ```
-
+text = "Мама мыла раму. Устала мама, но наконец отмыла раму-)"
+new_text = text.lower()
+num_words = new_text.count("мама")
+print(num_words)
 ---
 
 ### Подсказки
