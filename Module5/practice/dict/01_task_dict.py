@@ -12,3 +12,5 @@ item_count = 8
 dollar_rate = 74.12
 
 # TODO: your code here
+all_price = 8 * float(item["price"]) / dollar_rate
+print(f'Цена товара: {round(all_price, 2)}$')
